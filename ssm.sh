@@ -34,9 +34,9 @@ main() {
     echo " ${bold}-t, --tunnel${normal} <rds>   Create a tunnel to the specified RDS endpoint"
     echo ""
     echo "${bold}Example commands...${normal}"
-    echo "${italic}List the instances and RDS:${normal} $(basename "$0") -e dev -l"
-    echo "${italic}SSH connect to instance:${normal} $(basename "$0") -e dev -i i-086d5g0f21d4c569h -s"
-    echo "${italic}MySQL RDS SSH tunnel:${normal} $(basename "$0") -e dev -i i-086d5g0f21d4c569h -t mysqldev1.cluster-ro-vu8cq4o6s3t9.ap-southeast-1.rds.amazonaws.com"
+    echo "${italic}List the instances and RDS:${normal} $(basename "$0") -e dev -r ap-southeast-1 -l"
+    echo "${italic}SSH connect to instance:${normal} $(basename "$0") -e dev -r ap-southeast-1 -i i-086d5g0f21d4c569h -s"
+    echo "${italic}MySQL RDS SSH tunnel:${normal} $(basename "$0") -e dev -r ap-southeast-1 -i i-086d5g0f21d4c569h -t mysqldev1.cluster-ro-vu8cq4o6s3t9.ap-southeast-1.rds.amazonaws.com"
 }
 
 error_exit() {
