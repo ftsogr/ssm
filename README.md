@@ -34,7 +34,7 @@
   chmod +x  /<path_to_git_repo>/ssm.sh
   ```
   
-- Add a line like below in the end of `~/.bash_aliases`
+- Add a line like below at the end of `~/.bash_aliases`
    ```
    alias ssm.sh='/<path_to_git_repo>/ssm.sh'
    ```
